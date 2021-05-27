@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+ #title
+{
+	text-align:left;
+	font-size: 30px;
+	 font-weight: bold;
+	
+}
+#cretbtn
+{
+	font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  float:right;
+   position: relative;
+}
+.home
+{
+	margin-top:5%;
+	margin-left:15%;
+	margin-right:15%;
+	background:white;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  padding: 10px;
+  margin-top:5%;
+  margin-left:60%;
+ 
+	
+  
+  
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+  position: fixed;
+   
+}
+.form-container input[type=text], .form-container input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  
+  
+}
+/* Full-width input fields */
+
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #111;
+  color: white;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  
+  font-size: 20px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: #5b5f63;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, #cretbtn:hover {
+  opacity: 1;
+}
+.table
+{
+	width:75%;
+	column-gap:0px;
+	
+		
+	
+}
+
+
+a
+{
+	font-size:25px;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+}
+
+

@@ -1,0 +1,46 @@
+
+#title
+{
+	text-align:left;
+	font-size: 30px;
+	 font-weight: bold;
+	
+	
+}
+.notes
+{
+	 margin-left:10%;
+	 margin-top:5%;
+	 margin-right:10%;
+}
+
+#btn
+{
+	font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  float:right;
+   position: relative;
+   top:0;
+}
+table
+{
+	border-collapse: collapse;
+	width:80%;
+	column-gap:0px;
+	font-size:20px;
+	
+	
+	color: black;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+
